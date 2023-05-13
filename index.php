@@ -1,5 +1,4 @@
-hello
-hi
+<?php
 use Exception;
 
 use MongoDB\Client;
@@ -23,3 +22,4 @@ try {
     printf($e->getMessage());
 
 }
+?>
